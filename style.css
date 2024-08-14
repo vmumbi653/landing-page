@@ -11,6 +11,8 @@ body {
     padding: 16px;
     font-size: 16px;
     font-style: italic;
+    flex-wrap: wrap;
+    flex: 1;
 
 
 }
@@ -23,5 +25,43 @@ ul {
     padding: 0;
     gap: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
 }
+
+.info {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    display: flex;
+
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+.button {
+   background-color: royalblue;
+   border: 1px solid royalblue;
+   color: white;
+}
+
+.main-content {
+    display: flex;
+    gap: 16px;
+    
+
+}
+
+
+
+
 

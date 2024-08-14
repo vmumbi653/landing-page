@@ -77,22 +77,36 @@ img {
 
 .photograph {
     display: flex;
-    align-items: center;
-    gap: 16px;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 52px;
     flex-shrink: 0;
-    padding: 8px;
-    margin: 8px;
-    
+    justify-content: center;
+    align-items: center;
+}
 
-    
-       
+.title {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;   
 }
 photo {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    width: 200px;
 }
+
+
 
 
 

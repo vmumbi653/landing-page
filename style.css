@@ -16,6 +16,9 @@ body {
     flex-shrink: 0;
 
 }
+.header-logo {
+    font-size: 24px;
+}
 
 
 ul {
@@ -26,7 +29,7 @@ ul {
     padding: 0;
     gap: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .info {
@@ -44,7 +47,7 @@ img {
 
 .text {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     
 }
 .button {
@@ -55,7 +58,7 @@ img {
    border-radius: 8px;
    text-align: center;
    display: inline-block;
-   font-size: 24px;
+   font-size: 16px;
 }
 
 .main-info {

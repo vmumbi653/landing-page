@@ -13,6 +13,7 @@ body {
     font-style: italic;
     flex-wrap: wrap;
     flex: 1;
+    flex-shrink: 0;
 
 
 }
@@ -47,11 +48,16 @@ img {
 .text {
     display: flex;
     align-items: center;
+    
 }
 .button {
    background-color: royalblue;
    border: 1px solid royalblue;
    color: white;
+   padding: 8px 16px;
+   border-radius: 8px;
+   text-align: center;
+   display: inline-block;
 }
 
 .main-content {

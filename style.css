@@ -29,19 +29,21 @@ body {
     justify-content: center;
 }
 
-
+.nav-bar {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 ul {
     list-style-type: none;
     text-decoration: none;
-    display: flex;
     margin: 0;
     padding: 0;
     gap: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    align-items: center;
-    justify-content: center;
 }
 
 .info {

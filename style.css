@@ -105,7 +105,7 @@ img {
     gap: 8px; 
     flex-wrap: wrap; 
     flex: 1; 
-    padding: 70px;
+    /*padding: 70px;*/
 }
 photo {
     display: flex;
@@ -128,10 +128,57 @@ photo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px;
-    flex: 1;
-   
+    padding: 32px;
+    flex: 1; 
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
+
+.application {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.signup-button {
+    background-color: royalblue;
+   border: 1px solid white;
+   color: white;
+   padding: 8px 16px;
+   border-radius: 6px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+}
+.sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    padding: 16px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+}
+.txt {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 16px;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
 
 
 

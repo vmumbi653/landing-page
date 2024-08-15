@@ -1,6 +1,11 @@
 body {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
+
+
 }
 .header {
     display: flex;
@@ -14,6 +19,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     flex-shrink: 0;
+    
 
 }
 .header-logo {
@@ -34,7 +40,7 @@ ul {
 
 .info {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
     display: flex;
     align-items: center;
@@ -42,11 +48,11 @@ ul {
 
 img {
     height: 200px;
-    width: 400px;
+    width: 200px;
 }
 
 .text {
-    display: block;
+   
     font-size: 16px;
     
 }
@@ -79,27 +85,27 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    padding: 8px;
     justify-content: center;
     align-items: center;
-    float: left;
 }
 
 .title {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #1F2937;
     display: flex;
     justify-content: center;
-    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 0;
 
 }
 .container {
     display: flex;
     justify-content: center;
-    gap: 32px; 
+    gap: 8px; 
     flex-wrap: wrap; 
     flex: 1; 
+    padding: 70px;
 }
 photo {
     display: flex;
@@ -109,8 +115,10 @@ photo {
 .allpics {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+   
 }
+
 
 
 

@@ -11,8 +11,7 @@ body {
 }
 .header {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
     padding: 16px;
@@ -26,6 +25,10 @@ body {
 }
 .header-logo {
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 
@@ -54,7 +57,8 @@ img {
 }
 
 .text {
-   
+    height: 100px;
+    width: 400px;
     font-size: 16px;
     
 }
@@ -71,7 +75,7 @@ img {
 
 .main-info {
     display: flex;
-    gap: 32px;
+    /*gap: 32px;*/
     padding: 75px;
     align-items: center;
     justify-content: center;
@@ -79,16 +83,22 @@ img {
 }
 .main-content {
     display: flex;
-    padding: 16px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+   padding: 16px;
     gap: 16px;
 }
 
 .photograph {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
+    /*flex: 1;*/
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
+    width: 200px;
+    height: 200px;
 }
 
 .title {
@@ -107,6 +117,7 @@ img {
     gap: 8px; 
     flex-wrap: wrap; 
     flex: 1; 
+    min-width: 800px;
 }
 photo {
     display: flex;
@@ -115,8 +126,10 @@ photo {
 }
 .allpics {
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    gap: 8px;
+
+    /*justify-content: center;*/
+    /*align-items: center;*/ 
    
 }
 .testimonial {
@@ -133,6 +146,11 @@ photo {
     flex: 1; 
     flex-wrap: wrap;
     flex-shrink: 0;
+}
+.test {
+    height: 100px;
+    width: 600px;
+    padding: 45px;
 }
 
 .application {

@@ -25,6 +25,7 @@ body {
 .header-logo {
     font-size: 24px;
     padding: 8px 32px;
+    color: #F9FAF8;
 }
 
 .nav-bar {
@@ -46,6 +47,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .info {
@@ -124,7 +126,7 @@ img {
     flex-wrap: wrap; 
     flex: 1; 
     min-width: 800px;
-    margin-bottom: 70px;
+    margin-bottom: 45px;
 }
 photo {
     display: flex;
@@ -144,8 +146,8 @@ photo {
     color: #1F2937;
     font-size: 16px;
     font-style: italic;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,6 +167,7 @@ photo {
    justify-content: center;
    align-content: center;
    margin: auto;
+   margin-bottom: 100px;
 }
 .txt {
     color: white;
@@ -231,7 +234,7 @@ photo {
     bottom: 0;
     margin-top: auto;
     padding: 0;
-    /*height: 75px;*/
+    height: 75px;
 
 
 }

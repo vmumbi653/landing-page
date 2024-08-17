@@ -1,1 +1,3 @@
 # landing-page
+This project required me to create an entire webpage from a web design provided to test the skills learned thus far from HTML, CSS, and Flexbox. 
+I decided to create a landing page for a photography studio, Juno Photography, which offers photography classes to persons of all levels of expertise, from beginner to advanced level classes. I wanted to challenge my creativity for this work to make the final result feel truly mine. I utilized photos found on various websites from creators such as Alex Andrews, Claudi Wollesen, Rahul Pandit, and Kanerori. Completing this project was challenging, but I enjoyed the whole process, and I am satisfied with the result.
